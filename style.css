@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  background: #2b2b2b;
+}
+.notes-app-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  gap: 12px;
+  width: 500px;
+  margin: 32px;
+  padding: 32px;
+  color: #2b2b2b;
+  background: rgb(255, 255, 160);
+}
+h1 {
+  text-align: center;
+}
+input {
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+  background: rgb(249, 253, 0);
+  padding: 8px;
+}
+textarea {
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+  padding: 8px;
+  background: rgb(249, 253, 0);
+  min-height: 120px;
+  resize: vertical;
+}
+button {
+  font-size: 1rem;
+  width: fit-content;
+  padding: 0.5em 1.5em;
+  border: none;
+  border-radius: 4px;
+  background: rgb(249, 253, 0);
+  color: #2b2b2b;
+  cursor: pointer;
+}
