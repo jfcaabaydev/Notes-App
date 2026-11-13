@@ -2,13 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: Arial, sans-serif;
 }
 body {
   display: flex;
   justify-content: center;
   min-height: 100vh;
-  background: #2b2b2b;
+  background: #193330;
 }
 .notes-app-container {
   display: flex;
@@ -18,8 +18,8 @@ body {
   width: 500px;
   margin: 32px;
   padding: 32px;
-  color: #2b2b2b;
-  background: rgb(255, 255, 160);
+  color: #000000;
+  background: #37583d;
 }
 h1 {
   text-align: center;
@@ -28,7 +28,8 @@ input {
   border: none;
   border-radius: 8px;
   width: 100%;
-  background: rgb(249, 253, 0);
+  color: inherit;
+  background: #ffffff;
   padding: 8px;
 }
 textarea {
@@ -36,7 +37,7 @@ textarea {
   border-radius: 8px;
   width: 100%;
   padding: 8px;
-  background: rgb(249, 253, 0);
+  background: #ffffff;
   min-height: 120px;
   resize: vertical;
 }
@@ -46,7 +47,6 @@ button {
   padding: 0.5em 1.5em;
   border: none;
   border-radius: 4px;
-  background: rgb(249, 253, 0);
-  color: #2b2b2b;
+  background: #cfd1c3;
   cursor: pointer;
 }
